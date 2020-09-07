@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+// 最大盛水量 -> 双指针法
 
 int maxArea(vector<int>& height) {
     int i = 0, j = height.size() - 1, maxA = 0, h, A;
