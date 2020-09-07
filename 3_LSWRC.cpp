@@ -1,5 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+//解法1，真实模拟队列实现，找到最长队列长度
 int q[100000] = {0};  // 开大点
 int rear = 0, front = 0, len = 0;
 
