@@ -1,5 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+// Tips: 链表找中点：快慢指针！
+// Tips: 链表nlogn排序：归并排序
 struct ListNode {
     int val;
     ListNode *next;
