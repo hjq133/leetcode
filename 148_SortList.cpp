@@ -13,7 +13,7 @@ ListNode* findMid(ListNode* head) {
     ListNode* slow = head;
     ListNode* fast = head;
     ListNode* previous = NULL;
-    while(fast != NULL && fast->next != NULL) {
+    while(fast != NULL && fast->next != NULL) {  // 不可能出现只有一个节点的情况
         previous = slow;
         slow = slow->next;
         fast = fast->next->next;
