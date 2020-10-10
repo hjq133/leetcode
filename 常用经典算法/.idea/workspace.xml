@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e2b3fc9-4af5-435e-8bf6-9b8599fa02ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LinkListCycle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkListIntersect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LCS.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReverseLink.py" beforeDir="false" afterPath="$PROJECT_DIR$/ReverseLink.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,29 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReverseLink.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkListCycle.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LinkListIntersect.py">
+        <entry file="file://$PROJECT_DIR$/LCS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="396">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -66,14 +46,15 @@
         <option value="$PROJECT_DIR$/ReverseLink.py" />
         <option value="$PROJECT_DIR$/LinkListCycle.py" />
         <option value="$PROJECT_DIR$/LinkListIntersect.py" />
+        <option value="$PROJECT_DIR$/LCS.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="330" />
-    <option name="y" value="143" />
-    <option name="width" value="1437" />
-    <option name="height" value="821" />
+    <option name="x" value="298" />
+    <option name="y" value="210" />
+    <option name="width" value="1416" />
+    <option name="height" value="928" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -256,18 +237,17 @@
       <workItem from="1602118512435" duration="6222000" />
       <workItem from="1602152979840" duration="7536000" />
       <workItem from="1602258112018" duration="1996000" />
-      <workItem from="1602290587236" duration="1583000" />
+      <workItem from="1602290587236" duration="3400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19414000" />
+    <option name="totallyTimeSpent" value="21231000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="330" y="143" width="1437" height="821" extended-state="0" />
-    <editor active="true" />
+    <frame x="298" y="210" width="1416" height="928" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19082302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19378698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -383,6 +363,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LinkListIntersect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LinkListCycle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -390,10 +377,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkListIntersect.py">
+    <entry file="file://$PROJECT_DIR$/LCS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="396">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
