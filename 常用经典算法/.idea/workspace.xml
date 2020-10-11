@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e2b3fc9-4af5-435e-8bf6-9b8599fa02ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LCS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9e2b3fc9-4af5-435e-8bf6-9b8599fa02ec" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +13,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LCS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="252">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
@@ -238,16 +235,17 @@
       <workItem from="1602152979840" duration="7536000" />
       <workItem from="1602258112018" duration="1996000" />
       <workItem from="1602290587236" duration="3400000" />
+      <workItem from="1602340429566" duration="324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21231000" />
+    <option name="totallyTimeSpent" value="21555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="298" y="210" width="1416" height="928" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19378698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19822486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -379,7 +377,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LCS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="252">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
