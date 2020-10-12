@@ -29,19 +29,19 @@ public:
 //     return res;
 // }
 
-// 非递归算法
-vector<int> preorder(Node* root) {
-    Node* stack[100];
-    vector<int> res;
-    int top = -1;
-    Node* p = root;
-    if(root != NULL) {
-        for(; p != NULL; p=p->left) {
-            
-        }
-    }
-    return res;
-}
+// 非递归算法(不会)
+// vector<int> preorder(Node* root) {
+//     Node* stack[100];
+//     vector<int> res;
+//     int top = -1;
+//     Node* p = root;
+//     if(root != NULL) {
+//         for(; p != NULL; p=p->left) {
+
+//         }
+//     }
+//     return res;
+// }
 
 int main() {
 
