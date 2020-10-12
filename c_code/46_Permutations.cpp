@@ -10,8 +10,8 @@ void dfs(vector<int>& nums, int step) {
     if(step == nums.size()) {
         res.push_back(lst);
     }
-    for(int i=0; i<nums.size(); i++) {
-        if(used[i] == 0) { // 没用过
+    for(int i=0; i<nums.size(); i++) { // ??i?0?????
+        if(used[i] == 0) { // ?????
             lst.push_back(nums[i]);
             used[i] = 1;
             dfs(nums, step+1);
