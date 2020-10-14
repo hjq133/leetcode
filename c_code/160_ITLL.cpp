@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+// 相交链表相交部分的起始点
+// a - c = b - d
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(NULL) {}
+};
+
+ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+    ListNode* h1 = headA;
+    ListNode* h2 = headB;
+    while(h1 != h2) {
+        if(h1 == NULL)
+            h1 = headB;
+        else
+            h1 = h1->next;
+        if(h2 == NULL)
+            h2 = headA;
+        else
+            h2 = h2->next;
+    }
+    return h1;
+}
