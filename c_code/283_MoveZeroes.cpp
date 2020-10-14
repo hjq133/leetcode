@@ -1,23 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void swap(int& a, int& b) {
-    int temp = a;
-    a = b;
-    b = temp;
-}
-
 void moveZeroes(vector<int>& nums) {
-    int j = 0;
-    for(int i=0; i<nums.size(); i++) {
-        if(nums[i] != 0) {
-            nums[j++] = nums[i];
+        int slow=0, fast=0;
+        while(fast < nums.size()) {
+            while(fast<nums.size() && nums[fast]!=0) {
+                nums[slow++] = nums[fast++];
+            }
+            fast++;
         }
+        while(slow<nums.size()) nums[slow++] = 0;
     }
-    for(int i=j; i<nums.size(); i++) {
-        nums[i] = 0;
-    }
-}
 
 int main() {
 
