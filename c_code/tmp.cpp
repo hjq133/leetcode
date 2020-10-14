@@ -1,33 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
 
-vector<int> res;
-int used[10];
-
-void print() {
-    for(int i=0; i<res.size(); i++)
-        printf("%d ", res[i]);
-    printf("\n");
+bool check(TreeNode* p, TreeNode* q) {
+    if(p == NULL && q == NULL) return true; // 两个都为NULL
+    if(p == NULL || q == NULL) return false; // 一个为NULL，一个不为NULL
+    return p->val == q->val && check(p->left, q->right) && check(p->right, q->left);
 }
 
-void dfs(int n, int m) {
-    if(res.size() == m) {
-        print();
-        return;
-    }
-    for(int i=1; i<=n; i++) {
-        if(!used[i]) {
-            used[i] = 1;
-            res.push_back(i);
-            dfs(n, m);
-            res.pop_back();
-            used[i] = 0;
-        }
-    }
-}
-
-int main() {
-    int n, m;
-    scanf("%d %d", &n, &m);
-    dfs(n, m);
+bool isSymmetric(TreeNode* root) {
+    if(root == NULL) return true;
+    return check(root->left, root->right);
 }
