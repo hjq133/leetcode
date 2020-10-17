@@ -17,10 +17,9 @@ void dfs(int start, int step, int sz, vector<int>& nums) {
 }
 
 vector<vector<int>> subsets(vector<int>& nums) {
-    for(int sz=1; sz<=nums.size(); sz++) {
+    for(int sz=0; sz<=nums.size(); sz++) {
         dfs(0, 0, sz, nums);
     }
-    res.push_back({});
     return res;
 }
 
