@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-int cmp(int a, int b) {
-    return a > b;
+bool cmp(int a, int b) {
+    return a > b;  // 从大到小排序
 }
 
 int findDuplicate(vector<int>& nums) {
