@@ -15,10 +15,10 @@ public:
         : val(_val), left(_left), right(_right), next(_next) {}
 };
 
-vector<vector<Node*>> res(100, vector<Node*>(1));
-
+vector<vector<Node*>> res;
 void pre_order(Node* root, int depth) {
     if(root == NULL) return;
+    if(res.size() <= depth) res.push_back(vector<Node*>());
     pre_order(root->left, depth+1);
     res[depth].push_back(root);
     pre_order(root->right, depth+1);
@@ -26,11 +26,11 @@ void pre_order(Node* root, int depth) {
 
 Node* connect(Node* root) {
     pre_order(root, 0);
-    // for(int i=0; i<res.size(); i++) {
-    //     for(int j=0; j<res[i].size()-1; j++) {
-    //         res[i][j]->next = res[i][j+1];
-    //     }
-    // }
+    for(int i=0; i<res.size(); i++) {
+        for(int j=0; j<res[i].size()-1; j++) {
+            res[i][j]->next = res[i][j+1];
+        }
+    }
     return root;
 }
 

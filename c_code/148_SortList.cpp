@@ -11,16 +11,15 @@ struct ListNode {
 
 ListNode* findMid(ListNode* head) {
     ListNode* slow = head;
-    ListNode* fast = head;
-    ListNode* previous = NULL;
+    ListNode* fast = head->next;
     while(fast != NULL && fast->next != NULL) {  // 不可能出现只有一个节点的情况
-        previous = slow;
         slow = slow->next;
         fast = fast->next->next;
     }
-    // 把链表分成两个部分
-    previous->next = NULL;
-    return slow;
+    // 把链表分成两个部分, 以slow为切割点，slow->next为后半部分，head为前半部分
+    fast = slow->next; 
+    slow->next = NULL;
+    return fast;
 }
 
 ListNode* mergeTwoList(ListNode* l1, ListNode* l2) {
